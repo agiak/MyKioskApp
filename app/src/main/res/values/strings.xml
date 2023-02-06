@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyKioskApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="nav_label_kiosk_screen">Kiosk screen</string>
+    <string name="nav_label_kiosk_dialog">Dialog</string>
+    <string name="third_fragment_label">Third Fragment</string>
+    <string name="bottom_fragment_label">Bottom Dialog</string>
+
+    <string name="screen_title">Kiosk screen</string>
+    <string name="kiosk_switch">Enable Kiosk mode</string>
+    <string name="immersive_switch">Enable Immersive mode</string>
+    <string name="show_dialog">Show dialog</string>
+    <string name="show_bottom_dialog">Show \nbottom dialog</string>
+    <string name="dialog_info">This is a dialog. In dialogs immersive mode should not be applied. Also when dialog is dismissed immersive mode should be cancel at android 10 and below</string>
+    <string name="open_an_activity">Open an activity</string>
+    <string name="open_link_in_browser">Open link in browser</string>
+    <string name="second_activity_info">This is a second activity</string>
+
+</resources>

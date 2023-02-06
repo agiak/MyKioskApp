@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_kiosk">
+
+    <fragment
+        android:id="@+id/nav_kiosk"
+        android:name="com.example.mykioskapp.KioskFragment"
+        android:label="@string/nav_label_kiosk_screen"
+        tools:layout="@layout/fragment_kiosk">
+
+        <action
+            android:id="@+id/action_nav_kiosk_to_nav_dialog"
+            app:destination="@id/nav_dialog" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/nav_dialog"
+        android:name="com.example.mykioskapp.KioskDialogFragment"
+        android:label="@string/nav_label_kiosk_dialog"
+        tools:layout="@layout/fragment_dialog">
+    </dialog>
+</navigation>
